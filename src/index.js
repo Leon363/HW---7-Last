@@ -12,7 +12,7 @@ for(let i = 0; anchors.length; i++){
         setDetails(anchors[i]);
         // hideDetails();
     })
-}
+}     
 function setDetails(anchor) {
     console.log("anchor element was pressed", anchor);
     let hrefValue = anchor.getAttribute("href")
